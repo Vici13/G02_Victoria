@@ -23,3 +23,11 @@ mydata <- read.table("mydata.txt", header=T, sep="\t")
 
 View(mydata)
 summary(mydata)
+
+
+mydata$Sex <- as.factor(mydata$Sex)
+mydata$Filter <- as.factor(mydata$Filter)
+summary(mydata)
+
+mydata <- subset(mydata, Filter == 0)
+nrow(mydata)
