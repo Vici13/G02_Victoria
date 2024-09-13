@@ -5,10 +5,10 @@ a.	Title
 b.	Keywords
 c.	Abstract
 d.	Introduction
-e.	Methods
+**e.	Methods**
 R script was used.After filtering and validating the data, the final data was used for calculating correlation and plotting graphs.
 
-f.	Results
+**f.	Results**
 lm(formula = EM ~ Sex_ch + Extraversion + fMRI_hipp_neg_neu, 
     data = mydata)
 
