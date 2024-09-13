@@ -31,3 +31,24 @@ summary(mydata)
 
 mydata <- subset(mydata, Filter == 0)
 nrow(mydata)
+
+
+cor(mydata$EM_SD, mydata$EM_LD, use="pairwise")
+t.test(mydata$EM_SD, mydata$EM_LD)
+summary(mydata$EM_SD)
+summary(mydata$EM_LD)
+
+
+
+mydata$EM <- (mydata$EM_SD + mydata$EM_LD)/2
+
+plot(density(mydata$EM_SD), main="Compare EM SD and LD", frame.plot=F)
+lines(density(mydata$EM_LD), col="red")
+lines(density(mydata$EM), col="green")
+
+
+cor(mydata$fMRI_amy_neg_neu, mydata$fMRI_hipp_neg_neu)
+plot(mydata$fMRI_amy_neg_neu, mydata$fMRI_hipp_neg_neu, pch=19)
+abline(lm(mydata$fMRI_hipp_neg_neu ~ mydata$fMRI_amy_neg_neu))
+
+summary(lm(EM ~ Sex_ch + Extraversion + fMRI_hipp_neg_neu, data=mydata))
