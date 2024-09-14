@@ -1,11 +1,11 @@
-#a.	Title
-#b.	Keywords
-#c.	Abstract
-#d.	Introduction
-#e.	Methods
+# a.	Title
+# b.	Keywords
+# c.	Abstract
+# d.	Introduction
+# e.	Methods
 R script was used.After filtering and validating the data, the final data was used for calculating correlation and plotting graphs.
 
-#f.	Results
+# f.	Results
 lm(formula = EM ~ Sex_ch + Extraversion + fMRI_hipp_neg_neu, 
     data = mydata)
 
@@ -26,7 +26,7 @@ Residual standard error: 6.284 on 829 degrees of freedom
 Multiple R-squared:  0.6135,	Adjusted R-squared:  0.6121 
 F-statistic: 438.6 on 3 and 829 DF,  p-value: < 2.2e-16
 
-#g.	Discussion 
+# g.	Discussion 
 
 
 
