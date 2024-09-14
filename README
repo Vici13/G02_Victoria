@@ -1,14 +1,11 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-#hello
-a.	Title
-b.	Keywords
-c.	Abstract
-d.	Introduction
-**e.	Methods**
+#a.	Title
+#b.	Keywords
+#c.	Abstract
+#d.	Introduction
+#e.	Methods
 R script was used.After filtering and validating the data, the final data was used for calculating correlation and plotting graphs.
 
-**f.	Results**
+#f.	Results
 lm(formula = EM ~ Sex_ch + Extraversion + fMRI_hipp_neg_neu, 
     data = mydata)
 
@@ -29,13 +26,8 @@ Residual standard error: 6.284 on 829 degrees of freedom
 Multiple R-squared:  0.6135,	Adjusted R-squared:  0.6121 
 F-statistic: 438.6 on 3 and 829 DF,  p-value: < 2.2e-16
 
-g.	Discussion 
-end of discussion
-one more comment to add
-bli bla blub
-zfzhfkj
-kdkfjnjelfij
+#g.	Discussion 
 
-This task took me about 2 hours. It mostly worked but the last part with the sharing didn't really work. My friend could not see what my changes were and vice versa.
+
 
 
