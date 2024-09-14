@@ -70,6 +70,9 @@ abline(lm(mydata$fMRI_hipp_neg_neu ~ mydata$fMRI_amy_neg_neu))
 
 summary(lm(EM ~ Sex_ch + Extraversion + fMRI_hipp_neg_neu, data=mydata))
 
+#Replication
+repdata <- read.table("repdata.txt", header=T, sep="\t")
+repdata <- subset(repdata, Filter==0)
 
 #filtering and cleaning processes in one script
 #visualization steps in one script
