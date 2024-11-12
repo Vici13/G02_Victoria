@@ -29,10 +29,14 @@ pictures were all distinct from each other. The total number of freely recalled 
 
 ### Variables
 
-#### Sex: A binary variable (0 = female, 1 = male) was included to investigate sex-based differences in memory performance. The variable was later recoded into a factor with appropriate labels (female and male).
-#### Extraversion: This continuous variable measured the participants' extraversion levels, with higher values indicating greater extraversion.
-#### Memory Performance: Two continuous variables were used to represent memory performance: short-term memory (EM_SD) and long-term memory (EM_LD). These variables were assessed via standardized tests.
-#### Combined Memory Variable (EM): A composite memory variable was calculated by averaging the scores of EM_SD and EM_LD, which provided a general measure of cognitive performance.
+#### Sex:
+A binary variable (0 = female, 1 = male) was included to investigate sex-based differences in memory performance. The variable was later recoded into a factor with appropriate labels (female and male).
+#### Extraversion: 
+This continuous variable measured the participants' extraversion levels, with higher values indicating greater extraversion.
+#### Memory Performance: 
+Two continuous variables were used to represent memory performance: short-term memory (EM_SD) and long-term memory (EM_LD). These variables were assessed via standardized tests.
+#### Combined Memory Variable (EM): 
+A composite memory variable was calculated by averaging the scores of EM_SD and EM_LD, which provided a general measure of cognitive performance.
 
 ### Statistical Analysis
 
