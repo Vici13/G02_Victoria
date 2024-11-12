@@ -1,5 +1,5 @@
 # **a.	Title**
-Investigating the influence of sex on memory performance depending on the extraversion Level of the participants.
+##Investigating the influence of sex on memory performance depending on the extraversion Level of the participants.
 
 # **b.	Abstract**
 This study investigates the influence of sex on memory performance, considering the extraversion level of participants. Previous research has suggested that both extraversion and sex can independently influence cognitive functions, including memory, but their interaction remains understudied. We hypothesized that extraversion would significantly affect memory performance, with extraverts performing better on tasks requiring quick retrieval and introverts excelling in tasks demanding focused attention. Additionally, we expected that sex differences would moderate these effects, with males and females showing different patterns of memory performance based on their extraversion levels.
